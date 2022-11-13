@@ -2,7 +2,7 @@ import "./globals.css";
 import type { ReactNode } from "react";
 import localFont from "@next/font/local";
 
-const suitFont = localFont({ src: "./my-font.woff2" });
+const suitFont = localFont({ src: "./SUIT-Variable.woff2" });
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
